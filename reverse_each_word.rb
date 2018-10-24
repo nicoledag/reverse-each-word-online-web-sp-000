@@ -10,6 +10,6 @@ def reverse_each_word(string)
  reversed_string << word.reverse
  end
 
- return reversed_string.join
+ return reversed_string.join(' ')
 
 end
