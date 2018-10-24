@@ -4,12 +4,13 @@ def reverse_each_word(string)
 
  string = string.split
 
- reversed_string = []
 
- string.each do |word|
- reversed_string << word.reverse
+
+ string.collect do |word|
+word.join('')
+
  end
 
- return reversed_string.join(' ')
+
 
 end
