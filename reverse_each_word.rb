@@ -2,6 +2,7 @@ require 'pry'
 
 def reverse_each_word(string)
 
+binding.pry
  string = string.split
 
  reversed_string = []
