@@ -2,7 +2,7 @@ require 'pry'
 
 def reverse_each_word(string)
 
-binding.pry
+
  string = string.split
 
  reversed_string = []
@@ -10,7 +10,7 @@ binding.pry
  string.each do |word|
  reversed_string << word.reverse
  end
-
+binding.pry
  return reversed_string.join(' ')
 
 end
